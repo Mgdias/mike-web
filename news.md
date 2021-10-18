@@ -3,7 +3,7 @@ layout: default
 ---
 
 <h1> News</h1>
-## Welcome to another page
+## Welcome Mike to another page
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
