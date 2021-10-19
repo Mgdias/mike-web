@@ -3,7 +3,7 @@ layout: post
 title: "Perxploitation by N. Lizee with the Victoria Symphony Orchestra"
 date: 2021-10-19
 description: 
-youtube: https://www.youtube.com/watch?v=O0iugaMv6ws
+youtube: https://www.youtube.com/embed/O0iugaMv6ws
 author: Micheal G. Dias
 tags:
   - electric guitar
@@ -12,5 +12,5 @@ tags:
   - Perxploitation
 ---
 
-Michael Dias playing in the chambre version of Perxploitation by Nicole Lizee with the Victoria Symphony Orchestra on Oct 2, featuring Vern Griffiths.
+I played recently the electric guitar (and numerous pedal effects, duct tape and thunder roll) in the chambre version of Perxploitation by Nicole Lizee with the Victoria Symphony Orchestra on Oct 2, featuring percussionist Vern Griffiths.
 
