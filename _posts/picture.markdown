@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Michael Dias & Bradford Werner Perform Machado"
+date: 2021-10-19
+description: 
+youtube: https://www.youtube.com/watch?v=O0iugaMv6ws
+author: Micheal G. Dias
+tags:
+  - electric guitar
+  - Victoria Symphony Orchestra
+  - Nicole Lizee
+  - Perxploitation
+---
+
+Michael Dias playing in the chambre version of Perxploitation by Nicole Lizee with the Victoria Symphony Orchestra on Oct 2, featuring Vern Griffiths.
+
