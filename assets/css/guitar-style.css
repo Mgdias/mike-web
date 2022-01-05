@@ -1,6 +1,8 @@
 @import "fonts";
 @import "rouge-github";
 
+
+
 body {
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
@@ -108,6 +110,8 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
+
+
 ul.downloads {
   list-style:none;
   height:40px;
@@ -168,8 +172,7 @@ strong {
 }
 
 section {
-padding-top: 80px;
-margin-left:140px;
+padding-top: 20px;
 background-color: #fff;
 z-index: 100;
 }
@@ -227,6 +230,10 @@ footer {
 }
 
 @media print, screen and (max-width: 720px) {
+  .wrapper{
+    padding:15px;
+  }
+  
   body {
     word-wrap:break-word;
   }
@@ -242,10 +249,11 @@ footer {
   pre, code {
     word-wrap:normal;
   }
+
 }
 
 @media print, screen and (max-width: 480px) {
-  body {
+  .wrapper{
     padding:15px;
   }
 
@@ -257,6 +265,17 @@ footer {
     width:33%;
   }
 
+  .guitar-table .g-link {
+    margin-right: 10px!important;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  header{position: absolute; top:16px;left:-100px!important;z-index: -1;}
+  .logolink{position: absolute; top:97px;left:2px!important;text-align: center;color:white; z-index: 1000; }
+  .logo1 {position: absolute;}
+  .logo2 {position: absolute; top:-8px!important;left:-19px!important;}
+  .logo3 {position: absolute;top:-15px;left:-9px!important}
 }
 
 @media print {
@@ -267,6 +286,51 @@ footer {
   }
 }
 
-
 nav > ul {list-style-type:none;}
 nav > ul > li > a {color:#333;}
+
+.guitar-table{
+    padding:0 0 0 0;
+    margin:67px 0 60px 0;
+    z-index: 1;
+}
+.guitar-table .string  {
+    padding:0;
+    margin:0;
+    border: 1px solid #e5e5e5;
+}
+.guitar-table  .nostring {
+    padding:0;
+    margin:0;
+    border: 0!important;
+}
+.guitar-table td {
+    padding:0;
+    margin:0;
+    border: 0;
+    
+}
+.guitar-table .g-string {
+    width: 300px;
+}
+.guitar-table .g-link {
+    margin-right: 50px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.guitar-table .g-link > a {
+    text-decoration: none;
+    color:#333;
+    font-weight: 600;
+    white-space: nowrap;
+}
+header{
+position: absolute; top:16px;left:50px;z-index: -1;
+}
+.dot{
+  height: 220px;width: 220px;background-color: #000;border-radius: 50%;display: inline-block; border:20px solid#ff610a; z-index: 3;
+}
+.logolink{position: absolute; top:97px;left:92px;text-align: center;color:white; z-index: 1000; }
+.logo1 {display:block;position: relative;}
+.logo2 {display:block;position: relative; top:-24px;left:74px}
+.logo3 {display:block;position: relative;top:-15px;left:26px}
