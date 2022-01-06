@@ -1,5 +1,54 @@
+mike-web/index.html
+@Mgdias
+Mgdias Update index.html
+Latest commit b39b0f2 on Oct 19, 2021
+ History
+ 2 contributors
+@Mgdias@mattdias
+34 lines (24 sloc)  1.07 KB
+   
 ---
 layout: default
 ---
 
-<h1> News</h1>
+<h1> News </h1>
+<div class="posts" >
+  <div class="grid-xlarge">
+    <div class="posts__container" itemscope itemtype="http://schema.org/Blog" data-columns>
+
+      
+<div class="container">
+  <div class="row row-cols-3">
+    
+    
+      {% for post in site.posts %}
+ 
+    <div class="col">
+    
+    </div>
+
+ <div class="card" style="width: 18rem;">
+    
+    {% if post.image %}
+              <img class="card-img-top" src="{{ post.image }}" alt="{{ post.title }}" data-aos="fade-in" itemprop="image"/>
+          {% endif %}
+
+          {% if post.youtube %}
+            <iframe src="{{ post.youtube }}" frameborder="0" width="100%" height="350" allowfullscreen="allowfullscreen"></iframe>      
+          {% endif %}
+   
+  <div class="card-body">
+    <h5 class="card-title">{{ post.title }}</h5>
+    <p class="card-text">{{ post.content | strip_html | truncatewords: 35, "" }}</p>
+    <a href="{{ post.url | prepend: site.baseurl }}" class="stretched-link"> more...</a>
+  </div>
+</div>
+      
+
+
+      {% endfor %}
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
