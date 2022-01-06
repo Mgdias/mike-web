@@ -1,1 +1,12 @@
-tester
+---
+layout: post
+title: "tester"
+date: 2022-01-05
+description: 
+author: Micheal G. Dias
+tags:
+  - michael dias
+---
+
+
+<img src="https://vcm.bc.ca/wp-content/uploads/2015/11/Michael-Dias-small.jpg">
