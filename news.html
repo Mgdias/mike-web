@@ -15,9 +15,10 @@ layout: default
       <article style="padding-bottom: 50px;" class="posts__post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
 
         <div class="float-end" style="text-transform: uppercase;">
-          <small>{{ post.date | date: "%-d %B %Y" }}</small>
+          <small class="bg-dark text-light">&nbsp;{{ post.date | date: "%-d %B %Y" }}&nbsp;</small>
         </div>
-     <br>
+        <br>
+        <br>
         <a class="posts__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">   
           <span class="text-dark display-6">{{ post.title }} </span>
           <p class="lead">
