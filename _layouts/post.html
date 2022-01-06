@@ -27,3 +27,40 @@ layout: default
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}
 </div>
+<br>
+<br>
+<hr>
+<h3>More news </h3>
+
+<br>
+<br>
+<div class="container">
+ 
+  <div class="row">
+  
+        {% for post in site.posts %}
+  <div class="col-md-4 col-xs-12">
+  
+    <div class="card mb-3">
+          <article style="padding-bottom: 50px;" class="posts__post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+          <a class="posts__link stretched-link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url"></a>
+            
+            {% if post.image %}
+                <img src="{{ post.image }}" alt="{{ post.title }}" data-aos="fade-in" itemprop="image"/>
+            {% endif %}
+  
+            {% if post.youtube %}
+              <iframe src="{{ post.youtube }}" frameborder="0" width="100%" allowfullscreen="allowfullscreen"></iframe>      
+            {% endif %}
+            <div class="card-body">
+              <strong itemprop="name" class="card-title">{{ post.title }}</strong> — <span itemprop="description" style="color:#555;">{{ post.content | strip_html | truncatewords: 35, "" }}</span>
+            </div>
+  
+        
+        </article>
+        </div>
+      </div>
+        {% endfor %}
+  </div>
+  </div>
+     
