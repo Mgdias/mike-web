@@ -12,7 +12,7 @@ tags:
   - mental health
 ---
 
-<p><em>Members of the Soldier On program hit all the right notes on their road to recovery.</p>
+<p><em>Members of the Soldier On program hit all the right notes on their road to recovery.
 
 <p>Before the holiday break, 10 Soldier On members connected on Zoom for eight weeks of virtual guitar lessons with Michael Dias.</p>
 
@@ -28,7 +28,7 @@ A guitar was mailed to each member free of charge and was theirs to keep after t
 
 Members were given an introduction to strumming chords so they could play 12-bar blues.</p>
 
-Soldier-ON-Logo_BKtext-cmyk
+
 
 <p>“Learning to play a guitar riff that you have heard all of your life from your favourite band is fun,” he says. “It also serves to demystify the creative process, resulting in a feeling of inclusion and a sense of: Wow, anyone can do this with a little practice.”</p>
 
@@ -43,7 +43,7 @@ Soldier-ON-Logo_BKtext-cmyk
 <p>Soldier On typically organizes sport, physical activity, and recreation camps and activities, as well as supporting Canada’s Invictus Games team. However, Soldier On has recently expanded to include the creative arts and hopes to continue offering such opportunities.</p>
 
 <p>Soldier On is a program of Canadian Morale and Welfare Services. It provides support for serving and retired members of the Canadian Armed Forces who have experienced a physical or psychological illness or injury. For more information about Soldier On and its upcoming programs and activities, visit the website: www.SoldierOn.ca</p><br>
-</em></p>
+</p>
 
 
                                              
