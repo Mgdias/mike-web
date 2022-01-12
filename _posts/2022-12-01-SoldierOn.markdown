@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Article on Soldier On, Wellness and Guitar"
-date: 2015-03-09
+date: 2022-01-13
 description: Soldier On hits a chord of success! Pacific Navy News
 image: ./assets/img/photo-brochure-01.jpg
 author: Peter Mallett | Published in https://www.lookoutnewspaper.com/
