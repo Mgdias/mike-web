@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SALT New Music Festival"
+title: "SALT New Music Festival 2022"
 date: 2022-07-01
 description: 
 youtube: https://www.youtube.com/embed/c27gB3-a9Vk
@@ -13,5 +13,5 @@ tags:
   - Wolf Edwards
 ---
 
-Tsilumos Ensemble presented the 2022 edition of SALT New Music Festival in collaboration with Victoria Composers Collective and Quasar Saxophone Quartet.
+Tsilumos Ensemble presented the 2022 edition of SALT New Music Festival in collaboration with Victoria Composers Collective and Quasar Saxophone Quartet. I performed acoustic and electric guitar in works by Wolf Edwards, Thomas Nicholson, David Reidstra, Nolan Krell and Maria Eduarda Mendes Martins.
 
