@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Article on Soldier On, Wellness and Guitar"
+title: "2022 Article on Soldier On, Wellness and Guitar"
 date: 2022-01-13
 description: Soldier On hits a chord of success! Pacific Navy News
 image: ./assets/img/vlcsnap-2022-01-12-11h53m52s203.png
